@@ -50,7 +50,8 @@ table {
   font-family: 'Asap', roboto, sans-serif;
   font-size: 1em;
   line-height: 1.5em;
-  color: #150c21;
+  color: #e4e4e7;
+  background-color: #0f0f12;
 }
 
 #main {
@@ -62,12 +63,12 @@ table {
 
 a {
   text-decoration: none;
-  color: rgb(20, 110, 190);
+  color: #60a5fa;
 }
 
 a:hover {
   text-decoration: none;
-  border-bottom: 1px solid rgb(20, 110, 190);
+  border-bottom: 1px solid #60a5fa;
 }
 
 i {
@@ -126,11 +127,11 @@ h2 {
   font-size: 1.6em;
   line-height: 2.4em;
   margin-top: 0.5em;
-  color: #a0a8b0;
+  color: #6b6b7b;
 }
 
 .selected h2 {
-  color: #150c21;
+  color: #e4e4e7;
 }
 
 .button {
@@ -138,7 +139,7 @@ h2 {
   cursor: pointer;
   border: none;
   background: none;
-  color: #a0a8b0;
+  color: #6b6b7b;
   font-size: 1.6em;
   line-height: 2.4em;
   margin-top: 0.5em;
@@ -148,12 +149,12 @@ h2 {
 }
 
 .button:hover {
-  color: #150c21;
+  color: #e4e4e7;
 }
 
 .button:active,
 .button.is-checked {
-  color: #150c21;
+  color: #e4e4e7;
 }
 
 .button-group:after {
@@ -190,7 +191,7 @@ h2 {
 .list-item p.date {
   display: inline-block;
   width: 3em;
-  color: #a0a8b0;
+  color: #6b6b7b;
 }
 
 /**************************************************/
@@ -233,11 +234,11 @@ h2 {
 }
 
 .toggle-button a {
-  color: #a0a8b0;
+  color: #6b6b7b;
 }
 
 .toggle-button a:hover {
-  color: rgb(20, 110, 190);
+  color: #60a5fa;
 }
 
 /**************************************************/
@@ -274,11 +275,11 @@ h3 {
 }
 
 h3 a {
-  color: #150c21;
+  color: #e4e4e7;
 }
 
 h3 a:hover {
-  color: rgb(20, 110, 190);
+  color: #60a5fa;
 }
 
 .publication {
@@ -288,7 +289,7 @@ h3 a:hover {
 .publication p {
   font-size: 1em;
   line-height: 1.5em;
-  color: #a0a8b0;
+  color: #8b8b9b;
 }
 
 .project-description {
@@ -300,7 +301,7 @@ h3 a:hover {
 /* Subtle footer at the bottom of the page. */
 
 #footer {
-  color: #a0a8b0;
+  color: #6b6b7b;
   position: absolute;
   bottom: 0;
   line-height: 2.5em;
